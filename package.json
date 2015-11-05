@@ -1,0 +1,28 @@
+{
+  "name": "debug-web-logger-sandbox",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@git.dwss.lt:10022/d3trax/logger.git"
+  },
+  "dependencies": {
+    "debug-web-logger": "0.0.1-i"
+  },
+  "devDependencies": {
+    "tsd": "^0.6.5"
+  },
+  "jspm": {
+    "dependencies": {
+      "debug-web-logger": "npm:debug-web-logger@^0.0.1-h"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
