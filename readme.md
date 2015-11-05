@@ -3,16 +3,17 @@ Sandbox for debug-web-logger
 
 ## Setup
 
-
-    1. install dependencies
+   1. install dependencies
     
-    2. Compile
+   2. Compile
 
-```sh
-    npm install
-    jspm install
-    tsc
-```
+
+
+    ```sh
+        npm install
+        jspm install
+        tsc
+    ```
 
 ## Run
 
